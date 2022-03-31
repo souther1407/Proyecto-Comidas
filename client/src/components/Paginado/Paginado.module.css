@@ -1,0 +1,38 @@
+
+.paginado{
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.anterior,.siguiente{
+    background-color: white;
+    padding: 8px 16px;
+    background-color: transparent;
+    border: 1px solid var(--naranja);
+    color: var(--naranja);
+    font-size: xx-large;
+    cursor: pointer;
+    position: fixed;
+    z-index: 5;
+}
+.anterior{
+    left: 30px;
+    top: 50%;
+}
+
+.siguiente{
+    top: 50%;
+    right: 30px;
+}
+
+.anterior:active,.siguiente:active{
+    background-color: var(--naranja);
+    color: aliceblue;
+}
+
+.anterior[disabled],.siguiente[disabled]{
+    border: 1px solid gainsboro;
+    color: gainsboro;
+    cursor: initial;
+}

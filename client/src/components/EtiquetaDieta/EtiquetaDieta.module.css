@@ -1,0 +1,72 @@
+
+.etiquetaDieta{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px;
+    text-align: center;
+    font-family: cursive;
+}
+.vegan{
+    background-color: lawngreen;
+    color: rgb(59, 59, 59);
+}
+
+.dairy_free{
+    background-color: var(--naranja);
+    color: aliceblue;
+}
+
+.ketogenic{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.paleolithic{
+    background-color: cornflowerblue;
+    color: rgb(59, 59, 59);
+}
+
+.vegetarian{
+    background-color: green;
+    color: aliceblue;
+}
+
+.gluten_free{
+    background-color: rgb(250, 226, 181);
+    color: #222;
+}
+
+.lacto_ovo_vegetarian{
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
+
+.pescatarian{
+    background-color: indianred;
+    color: aliceblue;
+}
+
+.paleo{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+.primal{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.low_FODMAP{
+    background-color: darkmagenta;
+    color: aliceblue;
+}
+
+.fodmap_friendly{
+    background-color: coral;
+    color: aliceblue;
+}
+
+.whole_30{
+    background-color: cyan;
+    color: #222;
+}

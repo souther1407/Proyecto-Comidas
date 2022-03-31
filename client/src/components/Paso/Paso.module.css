@@ -1,0 +1,18 @@
+.paso{
+    display: flex;
+    background-color: beige;
+    margin-bottom: 24px;
+    position: relative;
+    padding: 8px;
+}
+
+.paso > :first-child{
+    background-color: var(--naranja);
+    color: aliceblue;
+    padding: 4px 8px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translate(-50%,-50%);
+}

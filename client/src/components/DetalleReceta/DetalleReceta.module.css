@@ -1,0 +1,141 @@
+
+.detalleReceta{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 32px;
+    margin: 16px;
+    box-shadow: 0 0 5px #aaa;
+    border-radius: 5px;
+    color: #444;
+
+}
+
+.linkHome{
+    text-decoration: none;
+    background-color: var(--naranja);
+    width: fit-content;
+    position: fixed;
+    padding: 16px;
+    border-radius: 50%;
+    padding: 16px 8px;
+    color: aliceblue;
+    z-index: 2;
+    bottom: 0%;
+    right: 2%;
+}
+
+.detalleReceta > *{
+    margin-bottom: 64px;
+}
+
+.imgTituloDietas{
+    display: flex;
+}
+
+.tituloDietas{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 204, 150);
+    flex-grow: 1;
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 8px;
+    position: relative;
+}
+
+img{
+    display: block;
+    height: auto;
+    width: 400px;
+    z-index: 1;
+    border-radius: 5px 0 0 5px;
+}
+
+.dietas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.puntuaciones{
+    background-color: #333;
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 16px;
+   
+}
+
+
+.puntuaciones > :first-child{
+    margin-right: 16px;
+}
+
+
+.excelente{
+    color: greenyellow;
+}
+
+.bueno{
+    color:green;
+}
+
+.regular{
+    color: goldenrod;
+}
+
+.malo{
+    color:red;
+}
+
+
+
+.resumen{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.resumen > h3{
+    background-color: brown;
+    padding: 4px 8px;
+    width: fit-content;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+.pasos{
+   display: flex;
+   flex-direction: column;
+}
+
+.pasos > h3{
+    background-color: brown;
+    padding: 4px 8px;
+    width: fit-content;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+
+.paso{
+    box-shadow: 0 0 5px #aaa;
+    padding: 8px;
+    margin-bottom: 32px;
+    position: relative;
+
+}
+
+.pasoNum{
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: translate(-50%,-50%);
+    background-color: var(--naranja);
+    color: aliceblue;
+    border-radius: 50%;
+    padding: 4px 9px;
+}

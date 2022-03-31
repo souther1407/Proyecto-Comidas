@@ -1,0 +1,115 @@
+.crearReceta{
+    display: flex;
+    background-color: #fff;
+    padding: 32px;
+}
+
+.form{
+    position: relative;
+    display: flex;
+    box-shadow: 0 0 5px gainsboro;
+    flex-direction: row;
+    padding: 8px;
+}
+
+.tituloForm{
+    position: absolute;
+    top: -3%;
+    background-color: var(--naranja);
+    left: 50%;
+    font-size: larger;
+    color: aliceblue;
+    transform: translateX(-50%);
+    padding: 8px;
+    border-radius: 4px;
+}
+.datosBasicos,.dietasYPasos{
+    display: flex;
+    margin-right: 32px;
+    border: none;
+    flex-direction: column;
+    padding: 8px;
+}
+.datosBasicos > div,.dietasYPasos > div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.datosBasicos{
+    background-color: bisque;
+    border-radius: 4px;
+}
+
+
+
+.crearReceta input{
+     border: none;
+     border-bottom: 1px solid var(--naranja);
+     padding: 4px 8px;
+}
+
+.crearReceta input:focus,.crearReceta textarea:focus{
+    outline: none;
+}
+ 
+ 
+
+.crearReceta textarea{
+    resize: none;
+    height: 250px;
+    border: 1px solid var(--naranja);
+    width: 300px !important;
+    padding: 8px;
+}
+
+
+
+.dietas{
+    background-color: #333;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.dietas label{
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+
+.agregarPasos{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.agregarPasos > span{
+    align-self: flex-end;
+}
+
+.btn{
+    display: inline-block;
+    background-color: brown;
+    color: aliceblue;
+    padding: 8px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.homeBtn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: var(--naranja);
+    color: aliceblue;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: larger;
+    
+}
+

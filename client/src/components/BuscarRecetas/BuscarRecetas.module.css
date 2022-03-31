@@ -1,0 +1,23 @@
+
+.buscar input{
+    padding: 5px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid transparent;
+
+}
+.buscar input:focus{
+    outline: none;
+   
+}
+.buscar button{
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+    border:1px solid transparent;
+    background-color: brown;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.buscar button:active{
+    background-color: rgb(252, 125, 125);
+}

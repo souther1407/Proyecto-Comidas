@@ -1,0 +1,21 @@
+
+.notificacion{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: fit-content;
+    background-color: rgb(6, 179, 6);
+    z-index: 100;
+    color: aliceblue;
+    padding: 16px;
+}
+
+.notificacion button{
+    background: none;
+    border: none;
+    color: aliceblue;
+    position: absolute;
+    right: 8px;
+    top:8px;
+    cursor: pointer;
+}

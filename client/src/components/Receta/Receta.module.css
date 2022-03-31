@@ -1,0 +1,111 @@
+
+.receta{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 220px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.692);
+    border-radius: 5px;
+    transition: transform .2s ease-in-out;
+    margin:24px;
+    text-decoration: none;
+    background-color: white;
+    
+}
+
+.receta:hover{
+    transform: scale(110%,110%);
+}
+.receta img{
+    width: 220px;
+    height: 200px;
+    z-index: 1;
+    border-radius: 5px 5px 0 0;
+}
+
+.receta h3{
+    margin: 4px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    color: #222;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.puntaje{
+ position: absolute;
+ right: 10px;
+ top: 0;
+ background-color: brown;
+ color: aliceblue;
+ z-index: 5;
+ padding: 8px;
+}
+
+.dietas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.dietas span{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px;
+    font-family: cursive;
+}
+
+.vegan{
+    background-color: lawngreen;
+    color: rgb(59, 59, 59);
+}
+
+.dairy_free{
+    background-color: var(--naranja);
+    color: aliceblue;
+}
+
+.ketogenic{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+.paleo{
+    background-color: cornflowerblue;
+    color: rgb(59, 59, 59);
+}
+
+.vegetarian{
+    background-color: green;
+    color: aliceblue;
+}
+
+.gluten_free{
+    background-color: rgb(250, 226, 181);
+    color: #222;
+}
+
+.lacto_ovo_vegetarian{
+    background-color: darkolivegreen;
+    color: aliceblue;
+}
+
+.pescetarian{
+    background-color: indianred;
+    color: aliceblue;
+}
+
+.paleo{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+.primal{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.low_FODMAP{
+    background-color: darkmagenta;
+    color: aliceblue;
+}

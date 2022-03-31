@@ -1,0 +1,23 @@
+
+@keyframes rotacion {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+    
+}
+
+.cargando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cargando img{
+    display: block;
+    animation: rotacion 1s infinite linear forwards;
+}
+

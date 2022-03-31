@@ -1,0 +1,41 @@
+.filtroOrden{
+    display: flex;
+    font-size: .9rem;
+    margin-left: 4px;
+    align-items: center;
+}
+
+.filtroOrden > :first-child{
+ margin-right: 8px;
+}
+
+.orden{
+    display: flex;
+}
+
+.orden h4{
+    margin-right: 8px;
+}
+
+.alfabetico,.puntuacion{
+    display: flex;
+    align-items: baseline;
+}
+
+.alfabetico label,.puntuacion label{
+    margin-right: 4px;
+}
+
+.btnQuitarFiltros{
+    padding: 5px;
+    background-color: brown;
+    color: aliceblue;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.btnQuitarFiltros:active{
+    background-color: rgb(235, 81, 81);
+}
