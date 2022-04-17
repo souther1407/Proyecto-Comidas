@@ -23,3 +23,10 @@ Tambien se pueden crear nuevas recetas.
 <hr />
 
 <img src="imgs/Food-App2.png"/>
+
+
+## como probarlo
+
+- clonar el repositorio
+- en la carpeta api, abrir un cli, ejecutar npm i y npm start
+- el mismo paso anterior hacerlo en la carpeta client
