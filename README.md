@@ -25,7 +25,7 @@ Tambien se pueden crear nuevas recetas.
 <img src="imgs/Food-App2.png"/>
 
 
-## como probarlo
+## como probarlo(se requiere nodeJS y git)
 
 - clonar el repositorio
 - en la carpeta api, abrir un cli, ejecutar npm i y npm start
