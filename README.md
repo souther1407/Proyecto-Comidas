@@ -1,14 +1,13 @@
-# Proyecto de Comidas
+# Recipe's project
 
-## Descripcion
+## Description
 
-Proyecto sobre una app que muestra diferentes tipos de recetas, con un puntaje
-tipo de dieta (si es para veganos,libre de gluten, etc), imagen y los pasos para prepararla.
-La misma puede filtrar y ordenar las recetas por orden alfabético, puntuacion y tipo de dieta.
-Tambien se pueden crear nuevas recetas.
+Proyect about an app that shows diferents types of recipies, with a score, diet type (vegan,gluten free, etc),
+image and the steps for cook them.
+The user can filter and sort the recipies by name, score and diet type.
+also,one can be create new recipies.
 
-
-## Tecnologias que aprendí a usar
+## Techs that I used
 
 - ReactJS
 - Redux
@@ -16,7 +15,7 @@ Tambien se pueden crear nuevas recetas.
 - Express
 - Sequelize
 
-## Imagenes
+## Images
 
 <img src="imgs/Food-App.png"/>
 
@@ -25,8 +24,10 @@ Tambien se pueden crear nuevas recetas.
 <img src="imgs/Food-App2.png"/>
 
 
-## como probarlo(se requiere nodeJS y git)
+## how test it (requires nodeJS, Postgres and git )
 
-- clonar el repositorio
+- clone the repository
 - en la carpeta api, abrir un cli, ejecutar npm i y npm start
-- el mismo paso anterior hacerlo en la carpeta client
+- in api directory, open a cli and execute "npm i" and then "npm start" for inicialize the server
+- in the client directory, open a cli and execute "npm i" and "npm start" for inicialize the client app
+- open a browser and enter in http://localhost:3000
