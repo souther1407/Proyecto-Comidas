@@ -23,11 +23,14 @@ also,one can be create new recipies.
 
 <img src="imgs/Food-App2.png"/>
 
+## dependencies
+- git
+- node js
+- postgres
 
-## how test it (requires nodeJS, Postgres and git )
+## how test it 
 
 - clone the repository
-- en la carpeta api, abrir un cli, ejecutar npm i y npm start
 - in api directory, open a cli and execute "npm i" and then "npm start" for inicialize the server
 - in the client directory, open a cli and execute "npm i" and "npm start" for inicialize the client app
 - open a browser and enter in http://localhost:3000
