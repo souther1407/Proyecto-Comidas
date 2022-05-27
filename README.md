@@ -23,12 +23,12 @@ also,one can be create new recipies.
 
 <img src="imgs/Food-App2.png"/>
 
-## dependencies
+## Dependencies
 - git
 - node js
 - postgres
 
-## how test it 
+## How test it 
 
 - clone the repository
 - in api directory, open a cli and execute "npm i" and then "npm start" for inicialize the server
