@@ -5,7 +5,7 @@
 Project about an app that shows diferents types of recipies, with a score, diet type (vegan,gluten free, etc),
 image and the steps for cook them.
 The user can filter and sort the recipies by name, score and diet type.
-also,one can be create new recipies.
+also,one can create new recipies.
 This is my first project, very special for me, my first complete app.
 Enjoy :)
 
